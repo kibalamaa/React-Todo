@@ -19,7 +19,7 @@
 
 .textAndButtons {
   display: flex;
-  align-items: center;  /* vertical alignment */
+  align-items: center;  
   justify-content: space-between;
   flex: 1;
 }
@@ -42,14 +42,14 @@
   border: none;
   background: transparent;
   padding: 0;
-  margin: 0 10px 0 0;  /* horizontal spacing between text and buttons */
+  margin: 0 10px 0 0;  
   outline: none;
-  transition: all 0.2s ease-in-out;  /* smooth size transition */
+  transition: all 0.2s ease-in-out;  
 }
 
 .buttons {
   display: flex;
-  gap: 8px;  /* space between buttons */
+  gap: 8px;  
   align-items: center;
 }
 
