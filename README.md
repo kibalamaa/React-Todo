@@ -1,5 +1,4 @@
 # Todo List App
-![Hero](src/assets/screenshots/hero.png)
 
 A simple Todo List app built with **React** and **TypeScript**.  
 Users can add, edit, and delete tasks.
