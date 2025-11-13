@@ -10,7 +10,7 @@ margin-top: 20px;
 .inputForm > input , button {
 outline:none;
 border:none;
-font-size: 1.4rem;
+font-size: 1.2rem;
 color:#000;
 }
 
@@ -33,9 +33,9 @@ color:rgba(229, 229, 229, 0.907)
 .inputForm > button {
 font-family: 'Roboto', sans-serif;
 padding:5px 10px;
-background: #FFB534;
+background:greenyellow;
 cursor: pointer;
-font-weight: 500;
+font-weight: 300;
 border-radius: 5px;
 margin-top: 10px;
 

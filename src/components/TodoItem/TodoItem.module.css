@@ -1,0 +1,66 @@
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 1px 1px 4px -2px blue;
+  margin: 2px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-in-out;
+  max-width: 400px;
+  width: 100%;
+  
+}
+
+.items:hover {
+  box-shadow: 1px 1px 6px -1px rgb(128, 255, 0);
+}
+
+.textAndButtons {
+  display: flex;
+  align-items: center;  /* vertical alignment */
+  justify-content: space-between;
+  flex: 1;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000;
+  margin-right: 10px;
+}
+
+.editInput {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0 10px 0 0;  /* horizontal spacing between text and buttons */
+  outline: none;
+  transition: all 0.2s ease-in-out;  /* smooth size transition */
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;  /* space between buttons */
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.cancelBtn {
+  color: #ef4040;
+}

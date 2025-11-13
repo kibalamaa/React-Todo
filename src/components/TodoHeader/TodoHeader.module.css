@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;               
+  padding: 12px 0;         
+  background: #bfddc1;     
+  border-radius: 8px;      /* subtle rounding */
+  color: #000000;          /* subtle accent color for text/icons */
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.icon {
+  font-size: 1.4rem;
+  color: inherit;           /* same as text color */
+  /* Optional: very subtle spin or fade */
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
