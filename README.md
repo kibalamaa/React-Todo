@@ -16,7 +16,6 @@ Edit existing tasks inline with Save and Cancel buttons.
 
 ### Delete Todo
 Remove tasks easily by clicking the delete button.
-![Delete Todo](src/assets/screenshots/delete-todo.png)
 
 
 ## Getting Started
